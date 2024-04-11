@@ -57,6 +57,7 @@ def save_stop_time():
     except PermissionError:
         label_result.config(text="파일이 열려 있거나 쓰기 권한이 없습니다.", foreground="red")
 
+
 # RPM 계산 함수
 def mps_to_rpm(mps, diameter):
     try:
