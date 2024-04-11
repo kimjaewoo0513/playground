@@ -59,6 +59,7 @@ def save_stop_time():
     except PermissionError:
         label_result.config(text="파일이 열려 있거나 쓰기 권한이 없습니다.", foreground="red")
 
+
 # 타이머 업데이트 함수
 def update_timer():
     global timer_id
